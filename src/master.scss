@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: red;
+}
+
+body div {
+  text-align: center;
+}
+
+$primary: blue;
+
+h1 {
+  margin-bottom: 20px;
+  color: $primary;
+}
+
+p {
+  margin: 0 auto;
+  width: 500px;
+  color: $primary;
+  margin-bottom: 30px;
+}
+
+button {
+  font-weight: bold;
+  background-color: green;
+  width: 100px;
+  border-radius: 7px;
+  padding: 5px 10px;
+  color: $primary;
+}
